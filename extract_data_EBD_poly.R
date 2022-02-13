@@ -1,14 +1,14 @@
 library(sf)
 library(auk)
 library(dplyr)
-setwd("D:/IISER_Tirupati/Birds_of_Tirupati/Species_List")
-poly <- read_sf("BOT_shape.shp")
-f_out <- ("BOT.txt")
-auk_ebd("ebd_IN-AP-CH_prv_relApr-2021.txt") %>%
+setwd("Add your working directory")
+poly <- read_sf("your_shapefile.shp")
+f_out <- ("data.txt")
+auk_ebd("EBD_dataset.txt") %>%
 auk_bbox(poly) %>%
 auk_complete() %>%
 auk_filter(f_out)
-ebd <- read_ebd("BOT.txt")
+ebd <- read_ebd("data.txt")
 ebd_sf <- ebd %>%
   select(longitude, latitude) %>%
   st_as_sf(coords = c("longitude", "latitude"), crs = 4326)
