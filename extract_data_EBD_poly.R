@@ -16,7 +16,7 @@ poly_ll <- st_transform(poly, crs = st_crs(ebd_sf))
 in_poly <- st_within(ebd_sf, poly_ll, sparse = FALSE)
 ebd_in_poly <- ebd[in_poly[, 1], ]
 
-
+#visualize the points clipped 
 par(mar = c(0,0,0,0))
 plot(poly %>% st_geometry(), col ="yellow", border = NA)
 plot(ebd_sf, col = "black", pch = 19, cex = 0.5, add = TRUE)
