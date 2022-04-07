@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Pombarai</name>
+	<gx:CascadingStyle kml:id="__managed_style_0EF5230DF121380AD60D">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1C427D149E21380AD60C">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0601FED2B121380AD60C">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1C427D149E21380AD60C</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0EF5230DF121380AD60D</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="01AFBD072D21380AD60C">
+		<name>Pombarai Range</name>
+		<LookAt>
+			<longitude>77.39531754534744</longitude>
+			<latitude>10.22845464302044</latitude>
+			<altitude>2388.173612586297</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>47174.14748596028</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0601FED2B121380AD60C</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						77.36445748614445,10.21721209587587,2047.701884031981 77.37578191370172,10.18391608852675,2290.743585631696 77.4056989731255,10.17402291617495,2219.279227994316 77.4470320105837,10.18175879290382,1289.613264930119 77.45397538485375,10.210580941966,2255.107927146463 77.45751730741786,10.24787034156815,2298.357607615394 77.42863202231568,10.2690292465202,1409.881195282417 77.3794799916119,10.25158803234426,2103.697869972063 77.36445748614445,10.21721209587587,2047.701884031981 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
